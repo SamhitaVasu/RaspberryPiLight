@@ -4,7 +4,7 @@ Voice activated raspberry pi light switch
 
 Methods invoked:
 
-1. speechRecognition() turns speech into text
+1. recognizeSpeech() turns speech into text
 
 2. detectCommand(str) detects valid command
 
