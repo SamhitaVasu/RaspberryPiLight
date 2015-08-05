@@ -2,12 +2,8 @@
 
 Voice activated raspberry pi light switch
 
-Methods invoked:
+   Uses CMU Pocketsphinx for voice recognition
 
-1. recognizeSpeech() turns speech into text
+   Uses <wiringSerial.h> for serial communication
 
-2. detectCommand(str) detects valid command
-
-3. If the command is valid, then createMessage(device, deviceID, command) in JSON format
-
-4. writeToUSB(msg) 
+   Arduino is the light source that is manipulated
